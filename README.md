@@ -1,8 +1,8 @@
-## sgip-twisted
+# sgip-twisted
 > 报文解析和逻辑代码来自[orangle/sgip1.2](https://github.com/orangle/sgip1.2)和[ElegantCloud/fy_sgip4py](https://github.com/ElegantCloud/fy_sgip4py), 本项目只是基于前者的Twisted实现
 
-#### API
-##### 接收短信(Deliver)
+### API
+#### 接收短信(Deliver)
 本网关就收到Deliver消息，同步到业务处理系统
 > - 配置conf.py的SYNC_URL
 > - 用户发送短信到指定号码，网关接收到Deliver消息
@@ -18,7 +18,7 @@ param:
 |content|短信内容||
 |reserve|保留字段|存放linkId|
 
-##### 发送短信(Submit)
+#### 发送短信(Submit)
 业务处理系统通过调用此接口回复用户短信
 
 host: /submit
@@ -39,7 +39,7 @@ param:
 |Reserve|保留字段|存放linkId，要与Deliver消息对应|
 
 
-#### 配置(conf.py)
+### 配置(conf.py)
 ```
 # SP PARAM
 SP_PARAM = {
