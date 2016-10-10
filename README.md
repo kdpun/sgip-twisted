@@ -9,6 +9,7 @@
 > - 本网关将解包后的Deliver消息转发到指定业务处理系统
 
 method: POST
+
 param:
 |name|usage|desc|
 |:----|:----|:------|
@@ -20,7 +21,9 @@ param:
 业务处理系统通过调用此接口回复用户短信
 
 host: /submit
+
 method: GET/POST
+
 param:
 |name|usage|desc|
 |:----|:--------|:------|
