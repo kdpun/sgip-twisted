@@ -11,6 +11,7 @@
 method: POST
 
 param:
+
 |name|usage|desc|
 |:----|:----|:------|
 |number|手机号码||
@@ -25,6 +26,7 @@ host: /submit
 method: GET/POST
 
 param:
+
 |name|usage|desc|
 |:----|:--------|:------|
 |UserNumber|手机号|手机号码前加“86”国别标志|
